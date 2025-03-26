@@ -1,0 +1,12 @@
+[package]
+name = "erc20-transfer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+web3 = "0.19.0"
+secp256k1 = { version = "0.27.0", features = ["rand"] }
+hex = "0.4.3"
+dotenv = "0.15.0"
+tokio = { version = "1.36.0", features = ["full"] }
+tiny-keccak = { version = "2.0.2", features = ["keccak"] }
